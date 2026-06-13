@@ -17,9 +17,9 @@ description: |
    ---
    title: (제목)
    type: clipping
-   source: (원본 URL/경로)
-   created: (오늘 날짜)
    tags: []
+   created: (오늘 날짜)
+   source: (원본 URL/경로)
    ---
    ```
 

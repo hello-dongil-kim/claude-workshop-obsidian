@@ -1,7 +1,7 @@
 ---
 name: session-obsidian
 description: |
-  Obsidian × Claude Code로 개인 지식 창고(두 번째 뇌) 만들기 실습. "두 번째 뇌", "옵시디언", "Obsidian", "지식 창고", "개인 지식관리", "PKM", "LLM Wiki", "Obsidian 플러그인", "수집 스킬", "세션 옵시디언" 키워드에 트리거.
+  Obsidian × Claude Code로 두 번째 뇌(개인 지식 창고) 만들기 실습 세션. "두 번째 뇌 만들기", "옵시디언 세션", "Obsidian 워크샵", "세션 옵시디언", "session-obsidian", "옵시디언 두 번째 뇌" 키워드에 트리거.
   Obsidian 완전 초짜도 따라오는 단발 세션. Vault 구축(B0~B3) + 운영(B4~B5) + 선택 부록(B6 플러그인, B7 나만의 수집 스킬).
 ---
 
@@ -70,6 +70,8 @@ AskUserQuestion으로 시작 블록을 선택하게 한다:
 | 7 | 부록 | (선택) 나만의 수집 스킬 만들기 | ~15분 |
 
 처음이면 Block 0부터 순서대로 진행을 추천한다. Block 6·7은 선택 부록이다.
+
+> **중간 블록부터 시작한다면:** Block 3 이후는 앞 블록의 산출물(Vault·CLAUDE.md 등)을 전제로 한다. 각 블록 reference 상단의 **전제**를 먼저 확인하라.
 
 ---
 

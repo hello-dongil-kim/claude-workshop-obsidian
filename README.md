@@ -147,6 +147,8 @@ Block 0  →  Block 1  →  Block 2  →  Block 3  →  Block 4  →  Block 5
 [ ] Block 7: (선택) 나만의 수집 스킬 만들기
 ```
 
+> **팁:** 이 체크리스트를 복사해 Vault(또는 이 폴더)에 `progress.md`로 저장하면, 다음에 이어서 진행할 때 어디까지 했는지 바로 보입니다. "좋은 건 노트로 환원"하는 이 세션의 원칙과도 같습니다.
+
 ---
 
 ## 파일 구조
@@ -174,4 +176,10 @@ claude-workshop-obsidian/
 
 ---
 
-문의: Experience Ops / @김동일
+## 만든 사람
+
+**김동일 (Dongil Kim)**
+
+- Email: <hello@dongil.kim>
+- LinkedIn: <https://www.linkedin.com/in/hellodongilkim/>
+- GitHub: <https://github.com/hello-dongil-kim/>

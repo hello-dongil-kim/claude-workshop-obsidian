@@ -2,6 +2,8 @@
 
 ## EXPLAIN
 
+> **전제:** Block 1에서 만든 **Vault 폴더**가 있어야 한다(루트에 CLAUDE.md를 두므로). Block 2의 폴더 골격까지 있으면 "vault 지도"를 더 정확히 적을 수 있다.
+
 ### 도입 — CLAUDE.md 3줄 요약
 
 - **CLAUDE.md** = 프로젝트(=Vault) 루트에 두는 마크다운 파일
@@ -12,7 +14,7 @@
 
 ### Vault용 CLAUDE.md에 들어갈 것
 
-세팅북의 AGENTS.md 예시를 Vault에 맞게 옮기면 이렇다:
+Vault용 CLAUDE.md에는 이런 항목을 적는다:
 
 - **문체** — 한국어, 존댓말 등
 - **폴더 규칙** — 새 노트는 어디에, frontmatter 포함
