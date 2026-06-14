@@ -130,7 +130,7 @@ Block 0  →  Block 1  →  Block 2  →  Block 3  →  Block 4  →  Block 5
 | Phase | 내용 | 사용자 액션 |
 | ----- | ---- | ---------- |
 | **A** | 개념 설명 + 실습 안내 | 직접 실행해보기 |
-| **B** | 퀴즈 | 정답 선택 → 피드백 → 다음 블록 |
+| **B** | 퀴즈(회상형 + 적용형) | 정답 선택 → 피드백(오답 시 해당 구간 다시 짚고 재시도) → 진도 저장 → 다음 블록 |
 
 실행이 끝나면 "완료" 또는 "다음"이라고 입력하세요.
 
@@ -147,7 +147,7 @@ Block 0  →  Block 1  →  Block 2  →  Block 3  →  Block 4  →  Block 5
 [ ] Block 7: (선택) 나만의 수집 스킬 만들기
 ```
 
-> **팁:** 이 체크리스트를 복사해 Vault(또는 이 폴더)에 `progress.md`로 저장하면, 다음에 이어서 진행할 때 어디까지 했는지 바로 보입니다. "좋은 건 노트로 환원"하는 이 세션의 원칙과도 같습니다.
+> **팁:** 이 체크리스트를 복사해 Vault(또는 이 폴더)에 `progress.md`로 저장하면, 다음에 이어서 진행할 때 어디까지 했는지 바로 보입니다(`templates/progress-template.md` 그대로 써도 됩니다). 세션은 시작 시 `progress.md`가 있으면 읽고 **"이어서 할까요?"**라고 묻고, 각 블록을 마치면 자동으로 갱신합니다. "이미 아는 블록은 핵심 1분 요약 후 바로 퀴즈로 건너뛰기"도 됩니다. "좋은 건 노트로 환원"하는 이 세션의 원칙과도 같습니다.
 
 ---
 
@@ -159,7 +159,7 @@ claude-workshop-obsidian/
 └── .claude/skills/session-obsidian/
     ├── SKILL.md                       (튜터 라우터)
     ├── references/ (8)                (블록별 EXPLAIN→EXECUTE→QUIZ, B6=플러그인·B7=수집 스킬 부록)
-    └── templates/ (7)                 (claude-md·note·clipping·index·log·collector-skill·sample-broken)
+    └── templates/ (8)                 (claude-md·note·clipping·index·log·collector-skill·sample-broken·progress)
 ```
 
 ---
