@@ -71,12 +71,6 @@
 /session-obsidian
 ```
 
-또는 자연어로:
-
-```text
-세션 시작해줘
-```
-
 시작 블록 선택지가 뜨면, 처음이면 Block 0부터 진행하세요.
 
 ---
@@ -169,7 +163,7 @@ claude-workshop-obsidian/
 | 증상 | 해결 |
 | ---- | ---- |
 | 스킬이 인식되지 않음 | Claude Code에서 `claude-workshop-obsidian` 폴더를 열었는지 확인 (File → Open Folder) |
-| `/session-obsidian`가 안 됨 | `/` 입력 후 자동완성 목록 확인, 또는 "세션 시작해줘" |
+| `/session-obsidian`가 안 됨 | `/` 입력 후 자동완성 목록 확인. 목록에 없으면 `claude-workshop-obsidian` 폴더를 다시 열기 |
 | 퀴즈가 Phase A에서 나옴 | "STOP PROTOCOL을 따라줘"라고 리마인드 |
 | 블록을 건너뛰고 싶음 | 시작 시 원하는 블록 번호를 선택 |
 | Web Clipper 저장이 안 됨 | 확장 설정에서 대상 Vault·폴더가 지정됐는지 확인 |

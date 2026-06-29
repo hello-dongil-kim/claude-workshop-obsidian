@@ -34,6 +34,7 @@ Web Clipper는 **웹용 가장 쉬운 입구**일 뿐, vault에 MD를 넣는 길
 **Obsidian Web Clipper**는 웹 기사를 마크다운으로 변환해 vault에 저장하는 브라우저 확장이다.
 
 - 설치 후 **저장할 Vault와 폴더**(예: `20_resources/clippings`)를 지정
+- **저장 형식(템플릿)도 지정** — 클리퍼 설정의 "템플릿(Template)" 영역에 `templates/clipping-template.md` 내용을 붙여넣으면 일관된 frontmatter로 저장된다. 거기 쓰인 `{{title}}`·`{{date}}`·`{{url}}`은 **Web Clipper가 클리핑할 때 자동으로 채우는 기본 변수**다(직접 입력하는 값이 아님)
 - 팁: 이미지도 로컬에 받으려면 Obsidian 설정 → 파일/링크 → 첨부파일 폴더 지정
 
 ### 가공 = AI의 grunt work
@@ -56,6 +57,7 @@ Web Clipper는 **웹용 가장 쉬운 입구**일 뿐, vault에 MD를 넣는 길
 **Step 1: Web Clipper 설치 + 클리핑 1건**
 - 브라우저에 "Obsidian Web Clipper" 확장 설치
 - 설정에서 저장할 Vault와 폴더(예: `20_resources/clippings`) 지정
+- 설정의 **템플릿 영역에 `templates/clipping-template.md` 내용을 붙여넣기** — 제목·날짜·출처가 frontmatter로 자동 기록된다
 - 관심 있는 웹 기사 하나를 클리핑해 vault에 저장
 
 **Step 2: Claude에게 가공 요청**

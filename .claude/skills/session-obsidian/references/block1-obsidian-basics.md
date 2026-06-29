@@ -80,7 +80,9 @@ Claude가 대신 찾아주기도 하지만, **내 손으로도 vault를 다닐 �
 
 **Step 3: 이번엔 Claude에게 시켜보기 (같은 일을 AI가)**
 > Claude Code로 vault를 다루는 방법(규칙서·안전 순서)은 **Block 3에서 정식으로 다룬다.** 여기서는 폴더만 열고 따라 해보면 된다.
-- Claude Code에서 방금 만든 Vault 폴더를 연다 (File → Open Folder)
+- Claude Code에서 방금 만든 Vault 폴더를 연다
+  - **터미널이 익숙하면:** 터미널을 열고 `cd "<Vault 폴더 경로>"` 입력 → 이어서 `claude` 실행
+  - **터미널이 낯설면:** VS Code 같은 에디터에서 그 폴더를 열고(File → Open Folder) 내장 터미널에서 `claude` 실행
 - 아래 프롬프트를 입력:
   ```
   이 vault에 "테스트노트2.md"를 만들어줘.
