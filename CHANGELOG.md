@@ -2,6 +2,12 @@
 
 이 워크샵의 주요 변경 이력. 형식은 [Keep a Changelog](https://keepachangelog.com/) 기반. 시리즈 공통 표준은 제작자 내부 문서 `workshop-series-standard`를 따른다.
 
+## [2026-06-29] — B2 통찰 1줄 보강
+
+### Added (추가)
+
+- Block 2: "일관된 frontmatter 표준 = AI가 구조적으로 추출하는 틀(Schema)" 콜아웃 1줄. 기능은 기존에 커버됨 — *왜*(구조적 추출)를 명시. 별도 schema 파일은 의도적으로 만들지 않음(규칙은 CLAUDE.md).
+
 ## [2026-06-14] — 9+ 품질 개선
 
 ### Added (추가)
